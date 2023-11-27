@@ -1,0 +1,796 @@
+.TituloGeneral{
+    font-size: 33px;
+    text-align: center;
+    color: black;
+    position:center;
+    top:10px;
+}
+.titulo{
+    font-size: 33px;
+    text-align: center;
+    color:whitesmoke;
+    position:absolute;
+    top:10px;
+    left:580px;
+    padding:30px;
+}
+.titulo1{
+    font-size: 33px;
+    text-align: left;
+    color:whitesmoke;
+    position:absolute;
+    top:10px;
+    left: 190px;
+    padding:30px;
+}
+.titulo2{
+    font-size: 33px;
+    text-align: right;
+    color:whitesmoke;
+    position:absolute;
+    top: 10px;
+    left:860px;
+    padding:30px;
+}
+.texto{
+    font-size: 23px;
+    text-align: justify;
+}
+.texto2{
+    font-size: 17px;
+    color:black;
+    text-align: center;
+}
+.texto-fuera {
+    position: absolute;
+    text-align: justify;
+    color:rgb(255, 253, 253);
+    top:130%;
+    font-size: 28px;
+    bottom: 0; /* Coloca el texto en la parte inferior */
+    left: 7%; /* Opcional: Ajusta la posición horizontal según sea necesario */
+    width: 80%; /* Opcional: Hace que el texto ocupe todo el ancho del contenedor */
+    height: 150px;
+    background-color: rgb(0, 7, 26); /* Opcional: Estilo para el texto */
+    padding: 15px; /* Opcional: Agrega espacio alrededor del texto */
+
+    border-radius: 4px;
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.473);
+    margin-bottom: 10px;
+
+  }
+.cont1{
+    display:flex;   
+    width: 230px;
+    height: 230px;
+    background-color: transparent;
+    display: flex;
+
+    border-radius: 360%;
+    justify-content: center;
+    position: absolute;
+
+    left:15%;
+    top:18%;
+    overflow: hidden;
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.459);
+    transition: background-color 0.1s;
+}
+.cont1:hover{
+  transition: all linear 0.2s;
+  transform: scale(1.1);
+  opacity:0.5;
+}
+.cont1 img{
+  width: 100%;
+  height: auto;
+}
+@supports(object-fit: cover){
+    .cont1 img{
+      height: 100%;
+      object-fit: cover;
+      object-position: center center;
+    }
+  }
+.cont2{
+   
+    display:flex;   
+    width: 230px;
+    height: 230px;
+    background-color: transparent;
+    border-radius: 360%;
+    justify-content: center;
+    position: absolute;
+    left:42%;
+    top:18%;
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.459);
+    overflow: hidden;
+
+}
+.cont2:hover{
+  transition: all linear 0.2s;
+  transform: scale(1.1);
+  opacity:0.5;
+}
+.cont2 img{
+  width: 100%;
+  height: auto;
+}
+@supports(object-fit: cover){
+    .cont2 img{
+      height: 100%;
+      object-fit: cover;
+      object-position: center center;
+    }
+  }
+.cont3{
+    display:flex;
+    width: 230px;
+    height: 230px;
+    background-color: transparent;
+    border-radius: 360%;
+
+    justify-content: center;
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.459);
+    position:absolute;
+    left:66%;
+    top:18%;
+    overflow: hidden;
+}
+.cont3:hover{
+  transition: all linear 0.2s;
+  transform: scale(1.1);
+  opacity:0.7;
+}
+.cont3 img{
+  width: 100%;
+  height: auto;
+}
+@supports(object-fit: cover){
+    .cont3 img{
+      height: 100%;
+      object-fit: cover;
+      object-position: center center;
+    }
+  }
+.con4{
+    display: flex;
+    width: 700px;
+    height: 400px;
+    background-color: transparent;
+    
+    border-radius: 2%;
+    justify-content: center;
+    position:relative;
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.459);
+    align-items: center;
+    left:280px;
+    top:380px;
+    overflow: hidden;
+}
+.con4 img{
+  width: 100%;
+  height: auto;
+}
+@supports(object-fit: cover){
+    .con4 img{
+      height: 100%;
+      object-fit: cover;
+      object-position: center center;
+    }
+  }
+.margenHome{
+  height: 10px;
+  width: 80%;
+  position: absolute;
+  background-color: transparent;
+  top:165%;
+}
+  /* ----------------------------------------- Ventana "Carácteristicas" -----------------------------------------------------------------------*/
+  .subtitulo{
+    font-size: 33px;
+    text-align: center;
+    color: black;
+    position:relative;
+    top:-400px;
+  }
+  .subtitulo1{
+    width:max-content;
+    font-size: 23px;
+    text-align: left;
+    color:white;
+    position: relative;
+    top:-350px;
+    box-shadow: 6px 6px rgba(0, 0, 0, 0.377);
+    background-color: #020461;
+    background-attachment: fixed;
+  }
+  .contenedor{
+    width: 300px;
+    height: 300px;
+    background-color: transparent;
+    display: flex;
+
+    justify-content: center;
+    position: relative;
+
+    overflow: hidden;
+    border-radius: 4px;
+    align-items: center;
+    left: 30px;
+    top: 35px;
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.473);
+  }
+  .contenedor img{
+    width: 100%;
+    height: auto;
+  }
+  @supports(object-fit: cover){
+      .contenedor img{
+        height: 100%;
+        object-fit: cover;
+        object-position: center center;
+      }
+    }
+  .contenedor1{
+    width: 800px;
+    height: 300px;
+    background-color: transparent;
+    display: flex;
+    color: white;
+    position:relative;   
+
+    align-items: center;
+    left: 28%;
+    top: -260px;
+    background: linear-gradient(135deg, #012242, #58037c,#020461,#37024e) ;    
+    border-radius: 5px;
+    box-shadow: 6px 6px rgba(0, 0, 0, 0.438);
+  }
+  .contenedor2{
+    width: 300px;
+    height: 300px;
+    background-color: transparent;
+    display: flex;
+
+    justify-content: center;
+    position: relative;
+    border-radius: 4px;
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.473);
+    overflow: hidden;
+
+    align-items: center;
+    left: 30px;
+    top: -185px;
+  }
+  .contenedor2 img{
+    width: 100%;
+    height: auto;
+  }
+  @supports(object-fit: cover){
+      .contenedor2 img{
+        height: 100%;
+        object-fit: cover;
+        object-position: center center;
+      }
+    }
+  .contenedortexto2{
+    width: 800px;
+    height: 300px;
+    background-color: transparent;
+    display: flex;
+    color: white;
+    position:relative;
+    background: linear-gradient(135deg, #012242, #58037c,#020461,#37024e) ;    
+    border-radius: 5px;
+    box-shadow: 6px 6px rgba(0, 0, 0, 0.438);
+    align-items: center;
+    left: 28%;
+    top: -485px;
+  }
+  .paquetes{
+    width: 800px;
+    height: 400px;
+    background-color: transparent;
+    display: flex;
+
+    position:relative;   
+    box-shadow: 6px 6px rgba(0, 0, 0, 0.445);
+    align-items: center;
+    left: 28%;
+    top: -450px;
+    overflow: hidden;
+    border-radius: 4px;
+  }
+  @supports(object-fit: cover){
+      .paquetes img{
+        height: 100%;
+        object-fit: cover;
+        object-position: center center;
+      }
+  }
+  .descpaquetes{
+    width: 800px;
+    height: 300px;
+    background-color: transparent;
+    display: flex;
+
+    position:relative;    
+    box-shadow: 6px 6px rgba(0, 0, 0, 0.486);
+    align-items: center;
+    left: 28%;
+    top: -450px;
+    border-radius: 6px;
+    background: linear-gradient(135deg, #012242, #58037c,#020461,#37024e);
+    color:white;
+  }
+  /*---------------------------------------Ventana Más información-------------------------------------*/
+  .button{
+    float: left;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 3%;
+    width: 150px;
+    height: 50px;
+
+    text-align: center;
+    border-radius: 4%;
+    color: aliceblue;
+    background-color: blue;
+    border-style:solid ;
+    transition: background-color 0.1s;
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.5);
+  }
+  .button:hover{
+    background-color: beige;
+    color:black
+  }
+  .button1{
+    float: left;
+    margin-top: 40px;
+    width: 150px;
+    height: 50px;
+
+    border-style:solid;
+    border-radius: 4%;
+    color: white;
+    background-color: black;
+    transition: background-color 0.1s;
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.5);
+  }
+  .button1:hover{
+    background-color: whitesmoke;
+    color: blue;
+  }
+  .piepagina{
+    width: 800px;
+    height: 400px;
+    background-color: transparent;
+    display: flex;
+
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 10%;
+
+    align-items: center;
+    left: 260px;
+    top: 100px;
+    border-radius: 8px;
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.479);
+  }
+  .piepagina img{
+    width: 100%;
+    height: auto;
+  }
+  @supports(object-fit: cover){
+      .piepagina img{
+        height: 100%;
+        object-fit: cover;
+        object-position: center center;
+      }
+    }
+  /*--------------------------Ventana Tipos de barcos----------------------------------------*/
+  .tituloBarcos{
+    font-size: 33px;
+    color: white;
+    text-align: center;
+    top: 10px;
+    position: center;
+  }
+  .barco1{
+    width: 1100px;
+    height: 400px;
+    background-color:rgb(142, 144, 253);
+    box-shadow: 8px 8px rgba(0, 0, 0, 0.459);
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    top:100px;
+    left:10%;
+    padding: 5px 5px;
+    border-radius: 10px 10px;
+  }
+  .t1interno1{
+    width: 300px;
+    height: 300px;
+    background-color: transparent;
+
+    display: flex;
+    align-items: center;
+    position: flex;
+    margin-left:5%;
+    border-radius: 4px;
+    box-shadow:6px 6px rgba(0, 0, 0, 0.459);
+    overflow: hidden;
+  }
+  .t1interno1 img{
+    width: 100%;
+    height: auto;
+  }
+  @supports(object-fit: cover){
+      .t1interno1 img{
+        height: 100%;
+        object-fit: cover;
+        object-position: center center;
+      }
+    }
+  .t1interno2{
+    width: 600px;
+    height: 200px;
+    background-color: transparent;
+
+    display: flex;
+    position: flex;
+    margin-left: 2%;
+  }
+  .barco2{
+    width: 1100px;
+    height: 400px;
+    background-color:rgb(142, 144, 253);
+    box-shadow: 8px 8px rgba(0, 0, 0, 0.459);
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    top:600px;
+    left:10%;
+    padding: 5px 5px;
+    border-radius: 10px 10px;
+  }
+  .t2interno1{
+    width: 300px;
+    height: 300px;
+    background-color: transparent;
+
+    display: flex;
+    align-items: center;
+    position: flex;
+    margin-left: 5%;
+    border-radius: 4px;
+    box-shadow:6px 6px rgba(0, 0, 0, 0.459);
+    overflow: hidden;
+  }
+  .t2interno1 img{
+    width: 100%;
+    height: auto;
+  }
+  @supports(object-fit: cover){
+      .t2interno1 img{
+        height: 100%;
+        object-fit: cover;
+        object-position: center center;
+      }
+    }
+  .t2interno2{
+    width: 600px;
+    height: 200px;
+    background-color: transparent;
+
+    display: flex;
+    position: flex;
+    align-items: center;
+    margin-left: 2%;
+  }
+  .barco3{
+    width: 1100px;
+    height: 400px;
+    background-color:rgb(142, 144, 253);
+    box-shadow: 8px 8px rgba(0, 0, 0, 0.459);
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    top:1100px;
+    left:10%;
+    padding: 5px 5px;
+    border-radius: 10px 10px;
+  }
+  .t3interno1{
+    width: 300px;
+    height: 300px;
+    background-color: transparent;
+
+    display: flex;
+    align-items: center;
+    position: flex;
+    margin-left: 5%;
+    border-radius: 4px;
+    box-shadow:6px 6px rgba(0, 0, 0, 0.459);
+    overflow: hidden;
+  }
+  .t3interno1 img{
+    width: 100%;
+    height: auto;
+  }
+  @supports(object-fit: cover){
+      .t3interno1 img{
+        height: 100%;
+        object-fit: cover;
+        object-position: center center;
+      }
+    }
+  .t3interno2{
+    width: 600px;
+    height: 200px;
+    background-color: transparent;
+
+    display: flex;
+    position: flex;
+    margin-left: 2%;
+    align-items: center;
+  }
+  .barco4{
+    width: 1100px;
+    height: 400px;
+    background-color:rgb(142, 144, 253);
+    box-shadow: 8px 8px rgba(0, 0, 0, 0.459);
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    top:1600px;
+    left:10%;
+    padding: 5px 5px;
+    border-radius: 10px 10px;
+  }
+  .t4interno1{
+    width: 300px;
+    height: 300px;
+    background-color: transparent;
+
+    display: flex;
+    align-items: center;
+    position: flex;
+    margin-left: 5%;
+    border-radius: 4px;
+    box-shadow:6px 6px rgba(0, 0, 0, 0.459);
+    overflow: hidden;
+  }
+  .t4interno1 img{
+    width: 100%;
+    height: auto;
+  }
+  @supports(object-fit: cover){
+      .t4interno1 img{
+        height: 100%;
+        object-fit: cover;
+        object-position: center center;
+      }
+    }
+  .t4interno2{
+    width: 600px;
+    height: 200px;
+    background-color: transparent;
+
+    display: flex;
+    position: flex;
+    margin-left: 2%;
+    align-items: center;
+  }
+  .barco5{
+    width: 1100px;
+    height: 400px;
+    background-color:rgb(142, 144, 253);
+    box-shadow: 8px 8px rgba(0, 0, 0, 0);
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    top:2100px;
+    left:10%;
+    padding: 5px 5px;
+    border-radius: 10px 10px;
+  }
+  .t5interno1{
+    width: 300px;
+    height: 300px;
+    background-color: transparent;
+
+    display: flex;
+    align-items: center;
+    position: flex;
+    margin-left: 5%;
+    border-radius: 4px;
+    box-shadow:6px 6px rgba(0, 0, 0, 0.459);
+    overflow: hidden;
+  }
+  .t5interno1 img{
+    width: 100%;
+    height: auto;
+  }
+  @supports(object-fit: cover){
+      .t5interno1 img{
+        height: 100%;
+        object-fit: cover;
+        object-position: center center;
+      }
+    }
+  .t5interno2{
+    width: 600px;
+    height: 200px;
+    background-color: transparent;
+
+    display: flex;
+    position: flex;
+    margin-left: 2%;
+  }
+  .barco6{
+    width: 1100px;
+    height: 400px;
+    background-color:rgb(142, 144, 253);
+    box-shadow: 8px 8px rgba(0, 0, 0, 0.459);
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    top:2600px;
+    left:10%;
+    padding: 5px 5px;
+    border-radius: 10px 10px;
+  }
+  .t6interno1{
+    width: 300px;
+    height: 300px;
+    background-color: transparent;
+
+    display: flex;
+    align-items: center;
+    position: flex;
+    margin-left: 5%;
+    border-radius: 4px;
+    box-shadow:6px 6px rgba(0, 0, 0, 0.459);
+    overflow: hidden;
+  }
+  .t6interno1 img{
+    width: 100%;
+    height: auto;
+  }
+  @supports(object-fit: cover){
+      .t6interno1 img{
+        height: 100%;
+        object-fit: cover;
+        object-position: center center;
+      }
+    }
+  .t6interno2{
+    width: 600px;
+    height: 200px;
+    background-color: transparent;
+
+    display: flex;
+    position: flex;
+
+    margin-left: 2%;
+  }
+  .barco7{
+    width: 1100px;
+    height: 400px;
+    background-color:rgb(142, 144, 253);
+    box-shadow: 8px 8px rgba(0, 0, 0, 0.459);
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    top:3100px;
+    left:10%;
+    padding: 5px 5px;
+    border-radius: 10px 10px;
+  }
+  .t7interno1{
+    width: 300px;
+    height: 300px;
+    background-color: transparent;
+
+    display: flex;
+    align-items: center;
+    position: flex;
+    margin-left: 5%;
+    border-radius: 4px;
+    box-shadow:6px 6px rgba(0, 0, 0, 0.459);
+    overflow: hidden;
+  }
+  .t7interno1 img{
+    width: 100%;
+    height: auto;
+  }
+  @supports(object-fit: cover){
+      .t7interno1 img{
+        height: 100%;
+        object-fit: cover;
+        object-position: center center;
+      }
+    }
+  .t7interno2{
+    width: 600px;
+    height: 200px;
+    background-color: transparent;
+
+    display: flex;
+    position: flex;
+
+    margin-left: 2%;
+  }
+  .barco8{
+    width: 1100px;
+    height: 400px;
+    background-color:rgb(142, 144, 253);
+    box-shadow: 8px 8px rgba(0, 0, 0, 0.459);
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    top:3600px;
+    left:10%;
+    padding: 5px 5px;
+    border-radius: 10px 10px;
+  }
+  .t8interno1{
+    width: 300px;
+    height: 300px;
+    background-color: transparent;
+
+    display: flex;
+    align-items: center;
+    position: flex;
+    margin-left: 5%;
+    border-radius: 4px;
+    box-shadow:6px 6px rgba(0, 0, 0, 0.459);
+    overflow: hidden;
+  }
+  .t8interno1 img{
+    width: 100%;
+    height: auto;
+  }
+  @supports(object-fit: cover){
+      .t8interno1 img{
+        height: 100%;
+        object-fit: cover;
+        object-position: center center;
+      }
+    }
+  .t8interno2{
+    width: 600px;
+    height: 200px;
+    background-color: transparent;
+
+    display:flex;
+    position: flex;
+
+    margin-left: 2%;
+  }
+.margenTiposbarcos{
+  height: 10px;
+  width: 80%;
+  position: absolute;
+  top:4100px;
+}

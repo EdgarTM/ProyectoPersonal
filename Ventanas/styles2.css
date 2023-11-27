@@ -1,0 +1,614 @@
+/*------------------------------Ventana de susceos reales-------------------------------------*/
+.suceso1{
+    width: 1100px;
+    height: 400px;
+    background-color:rgb(255, 225, 179);
+    box-shadow: 8px 8px rgba(0, 0, 0, 0.459);
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    top:100px;
+    left:10%;
+    padding: 5px 5px;
+    border-radius: 10px 10px;
+  }
+  .interno1{
+    width: 300px;
+    height: 300px;
+    background-color: transparent;
+    box-shadow: 2px 4px rgba(0, 0, 0, 0.384);
+
+    display: flex;
+    align-items: center;
+    position: flex;
+    overflow: hidden;
+    border-radius: 10px 10px;
+  }
+  .interno1 img{
+    width: 100%;
+    height: auto;
+  }
+  @supports(object-fit: cover){
+      .interno1 img{
+        height: 100%;
+        object-fit: cover;
+        object-position: center center;
+      }
+  }
+  .interno2{
+    width: 300px;
+    height: 300px;
+    background-color: transparent;
+    box-shadow: 2px 4px rgba(0, 0, 0, 0.384);
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: flex;
+    
+    margin-left: 2px;
+    overflow: hidden;
+    border-radius: 10px 10px;
+  }
+  .interno2 img{
+    width: 100%;
+    height: auto;
+  }
+  @supports(object-fit: cover){
+      .interno2 img{
+        height: 100%;
+        object-fit: cover;
+        object-position: center center;
+      }
+  }
+  .textointerno1{
+    width: 500px;
+    height: 300px;
+    background-color: transparent;
+
+    display: flex;
+    flex-direction: row;
+    align-items: justify;
+    position: flex;
+    margin-left: 2px;
+  }
+  .suceso2{
+    width: 1100px;
+    height: 400px;
+    background-color: transparent;
+    background-color:rgb(255, 225, 179);
+    box-shadow: 8px 8px rgba(0, 0, 0, 0.459);
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    top:600px;
+    left:10%;
+    padding: 5px 5px;
+    border-radius: 10px 10px;
+  }
+  .sinterno1{
+    width: 300px;
+    height: 300px;
+    background-color: transparent;
+    box-shadow: 2px 4px rgba(0, 0, 0, 0.384);
+
+    display: flex;
+    align-items: center;
+    position: flex;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  .sinterno1 img{
+  width: 100%;
+  height: auto;
+}
+@supports(object-fit: cover){
+    .sinterno1 img{
+      height: 100%;
+      object-fit: cover;
+      object-position: center center;
+    }
+}
+  .sinterno2{
+    width: 300px;
+    height: 300px;
+    background-color: transparent;
+    box-shadow: 2px 4px rgba(0, 0, 0, 0.384);
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: flex;
+    margin-left: 2px;
+    overflow: hidden;
+    border-radius: 10px;
+    
+  }
+  .sinterno2 img{
+    width: 100%;
+    height: auto;
+  }
+  @supports(object-fit: cover){
+      .sinterno2 img{
+        height: 100%;
+        object-fit: cover;
+        object-position: center center;
+      }
+  }
+  .textointerno2{
+    width: 500px;
+    height: 300px;
+    background-color: transparent;
+
+    display: flex;
+    flex-direction: row;
+    align-items: justify;
+    position: flex;
+    margin-left: 2px;
+  }
+  .suceso3{
+    width: 1100px;
+    height: 400px;
+    background-color: transparent;
+    background-color:rgb(255, 225, 179);
+    box-shadow: 8px 8px rgba(0, 0, 0, 0.459);
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    top:1100px;
+    left:10%;
+    padding: 5px 5px;
+    border-radius: 10px 10px;
+  }
+  .s3interno1{
+    width: 300px;
+    height: 300px;
+    background-color: transparent;
+    box-shadow: 2px 4px rgba(0, 0, 0, 0.384);
+
+    display: flex;
+    align-items: center;
+    position: flex;
+    overflow: hidden;
+    border-radius: 10px;
+    
+  }
+  .s3interno1 img{
+    width: 100%;
+    height: auto;
+  }
+  @supports(object-fit: cover){
+      .s3interno1 img{
+        height: 100%;
+        object-fit: cover;
+        object-position: center center;
+      }
+  }
+  .s3interno2{
+    width: 300px;
+    height: 300px;
+    background-color: transparent;
+    box-shadow: 2px 4px rgba(0, 0, 0, 0.384);
+
+    display: flex;
+    align-items: center;
+    position: flex;
+    overflow: hidden;
+    margin-left: 2px;
+    border-radius: 10px;
+  }
+  .s3interno2 img{
+    width: 100%;
+    height: auto;
+  }
+  @supports(object-fit: cover){
+      .s3interno2 img{
+        height: 100%;
+        object-fit: cover;
+        object-position: center center;
+      }
+  }
+  .s3texto{
+    width: 500px;
+    height: 300px;
+    background-color: transparent;
+
+    display: flex;
+    flex-direction: row;
+    align-items: justify;
+    position: flex;
+    margin-left: 2px;
+  }
+  .suceso4{
+    width: 1100px;
+    height: 400px;
+    background-color: transparent;
+    background-color:rgb(255, 225, 179);
+    box-shadow: 8px 8px rgba(0, 0, 0, 0.459);
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    top:1600px;
+    left:10%;
+    padding: 5px 5px;
+    border-radius: 10px 10px;
+  }
+  .s4interno1{
+    width: 300px;
+    height: 300px;
+    background-color: transparent;
+    box-shadow: 2px 4px rgba(0, 0, 0, 0.384);
+
+    display: flex;
+    align-items: center;
+    position: flex;
+    overflow: hidden;
+    border-radius: 10px 10px;
+  }
+  .s4interno1 img{
+    width: 100%;
+    height: auto;
+  }
+  @supports(object-fit: cover){
+      .s4interno1 img{
+        height: 100%;
+        object-fit: cover;
+        object-position: center center;
+      }
+  }
+  .s4interno2{
+    width: 300px;
+    height: 300px;
+    background-color: transparent;
+    box-shadow: 2px 4px rgba(0, 0, 0, 0.384);
+
+    display: flex;
+    align-items: center;
+    position: flex;
+    overflow: hidden;
+    margin-left: 2px;
+    border-radius: 10px 10px;
+  }
+  .s4interno2 img{
+    width: 100%;
+    height: auto;
+  }
+  @supports(object-fit: cover){
+      .s4interno2 img{
+        height: 100%;
+        object-fit: cover;
+        object-position: center center;
+      }
+  }
+  .s4texto{
+    width: 500px;
+    height: 300px;
+    background-color: transparent;
+
+    display: flex;
+    flex-direction: row;
+    align-items: justify;
+    position: flex;
+    margin-left: 2px;
+  }
+  .suceso5{
+    width: 1100px;
+    height: 400px;
+    background-color: transparent;
+    background-color:rgb(255, 225, 179);
+    box-shadow: 8px 8px rgba(0, 0, 0, 0.459);
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    top:2100px;
+    left:10%;
+    padding: 5px 5px;
+    border-radius: 10px 10px;
+  }
+  .s5interno1{
+    width: 300px;
+    height: 300px;
+    background-color: transparent;
+    box-shadow: 2px 4px rgba(0, 0, 0, 0.384);
+
+    display: flex;
+    align-items: center;
+    position: flex;
+    overflow: hidden;
+    border-radius: 10px 10px;
+  }
+  .s5interno1 img{
+    width: 100%;
+    height: auto;
+  }
+  @supports(object-fit: cover){
+      .s5interno1 img{
+        height: 100%;
+        object-fit: cover;
+        object-position: center center;
+      }
+    }
+  .s5interno2{
+    width: 300px;
+    height: 300px;
+    background-color: transparent;
+    box-shadow: 2px 4px rgba(0, 0, 0, 0.384);
+
+    display: flex;
+    align-items: center;
+    position: flex;
+    overflow: hidden;
+    margin-left: 2px;
+    border-radius: 10px 10px;
+  }
+  .s5interno2 img{
+    width: 100%;
+    height: auto;
+  }
+  @supports(object-fit: cover){
+      .s5interno2 img{
+        height: 100%;
+        object-fit: cover;
+        object-position: center center;
+      }
+    }
+    .s5texto{
+    width: 500px;
+    height: 300px;
+    background-color: transparent;
+
+    display: flex;
+    flex-direction: row;
+    align-items: justify;
+    position: flex;
+    margin-left: 2px;
+    }
+    .suceso6{
+      width: 1100px;
+      height: 400px;
+      background-color: transparent;
+      background-color:rgb(255, 225, 179);
+      box-shadow: 8px 8px rgba(0, 0, 0, 0.459);
+  
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      position: absolute;
+      top:2600px;
+      left:10%;
+      padding: 5px 5px;
+      border-radius: 10px 10px;
+      }
+      .s6interno1{
+      width: 300px;
+      height: 300px;
+      background-color: transparent;
+      box-shadow: 2px 4px rgba(0, 0, 0, 0.384);
+  
+      display: flex;
+      align-items: center;
+      position: flex;
+      overflow: hidden;
+      margin-left: 2px;
+      border-radius: 10px 10px;
+      }
+      .s6interno1 img{
+        width: 100%;
+        height: auto;
+      }
+      @supports(object-fit: cover){
+          .s6interno1 img{
+            height: 100%;
+            object-fit: cover;
+            object-position: center center;
+          }
+        }
+      .s6interno2{
+      width: 300px;
+      height: 300px;
+      background-color: transparent;
+      box-shadow: 2px 4px rgba(0, 0, 0, 0.384);
+  
+      display: flex;
+      align-items: center;
+      position: flex;
+      overflow: hidden;
+      margin-left: 2px;
+      border-radius: 10px 10px;
+      }
+      .s6interno2 img{
+        width: 100%;
+        height: auto;
+      }
+      @supports(object-fit: cover){
+          .s6interno2 img{
+            height: 100%;
+            object-fit: cover;
+            object-position: center center;
+          }
+        }
+      .s6texto{
+        width: 500px;
+      height: 300px;
+      background-color: transparent;
+      
+  
+      display: flex;
+      flex-direction: row;
+      align-items: justify;
+      position: flex;
+      margin-left: 2px;
+      }
+.suceso7{
+  width: 1100px;
+  height: 400px;
+  background-color: transparent;
+  background-color:rgb(255, 225, 179);
+  box-shadow: 8px 8px rgba(0, 0, 0, 0.459);
+  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: absolute;
+  top:3100px;
+  left:10%;
+  padding: 5px 5px;
+  border-radius: 10px 10px;
+}
+.s7interno1{
+  width: 300px;
+  height: 300px;
+  background-color: transparent;
+  box-shadow: 2px 4px rgba(0, 0, 0, 0.384);
+
+  display: flex;
+  align-items: center;
+  position: flex;
+  overflow: hidden;
+  margin-left: 2px;
+  border-radius: 10px 10px;
+}
+.s7interno1 img{
+  width: 100%;
+  height: auto;
+}
+@supports(object-fit: cover){
+    .s7interno1 img{
+      height: 100%;
+      object-fit: cover;
+      object-position: center center;
+    }
+  }
+.s7interno2{
+  width: 300px;
+  height: 300px;
+  background-color: transparent;
+  box-shadow: 2px 4px rgba(0, 0, 0, 0.384);
+
+  display: flex;
+  align-items: center;
+  position: flex;
+  overflow: hidden;
+  margin-left: 2px;
+  border-radius: 10px 10px;
+}
+  .s7interno2 img{
+    width: 100%;
+    height: auto;
+  }
+  @supports(object-fit: cover){
+      .s7interno2 img{
+        height: 100%;
+        object-fit: cover;
+        object-position: center center;
+      }
+    }
+.s7texto{
+  width: 500px;
+  height: 300px;
+  background-color: transparent;
+  
+
+  display: flex;
+  flex-direction: row;
+  align-items: justify;
+  position: flex;
+  margin-left: 2px;
+}
+.suceso8{
+  width: 1100px;
+  height: 400px;
+  background-color: transparent;
+  background-color:rgb(255, 225, 179);
+  box-shadow: 8px 8px rgba(0, 0, 0, 0.459);
+  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+  position: absolute;
+  top:3600px;
+  left:10%;
+  padding: 5px 5px;
+  border-radius: 10px 10px;
+  margin-bottom: 10px;
+}
+.s8interno1{
+  width: 300px;
+  height: 300px;
+  background-color: transparent;
+  box-shadow: 2px 4px rgba(0, 0, 0, 0.384);
+
+  display: flex;
+  align-items: center;
+  position: flex;
+  overflow: hidden;
+  margin-left: 2px;
+  border-radius: 10px 10px;
+}
+.s8interno1 img{
+  width: 100%;
+  height: auto;
+}
+@supports(object-fit: cover){
+    .s8interno1 img{
+      height: 100%;
+      object-fit: cover;
+      object-position: center center;
+    }
+  }
+.s8interno2{
+  width: 300px;
+  height: 300px;
+  background-color: transparent;
+  box-shadow: 2px 4px rgba(0, 0, 0, 0.384);
+
+  display: flex;
+  align-items: center;
+  position: flex;
+  overflow: hidden;
+  margin-left: 2px;
+  border-radius: 10px 10px;
+}
+.s8interno2 img{
+  width: 100%;
+  height: auto;
+}
+@supports(object-fit: cover){
+    .s8interno2 img{
+      height: 100%;
+      object-fit: cover;
+      object-position: center center;
+    }
+  }
+.s8texto{
+  width: 500px;
+  height: 300px;
+  background-color: transparent;
+  
+
+  display: flex;
+  flex-direction: row;
+  align-items: justify;
+  position: flex;
+  margin-left: 2px;
+}
+
+
+.margeninferior{
+ height: 10px;
+ width: 80%;
+ position:absolute;
+
+ top: 4100px;
+}
